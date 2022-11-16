@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-heis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolxx72/preEntrega3-heis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolxx72/preEntrega3-heis/issues"
+  },
+  "homepage": "https://github.com/lolxx72/preEntrega3-heis#readme"
+}
