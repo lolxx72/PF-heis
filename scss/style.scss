@@ -1,0 +1,19 @@
+@import './components/header';
+@import './components/footer';
+@import './components/index';
+@import './components/servicios';
+@import './components/contact';
+@import './components/blog';
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkalami', serif;
+
+}
+
+main {
+    background-color: #f8afb8;
+}

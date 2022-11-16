@@ -1,3 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+header {
+  background-color: #ffe9f0;
+}
 
+.button {
+  transition: ease-in 0.3s;
+  margin-bottom: 2em;
+  margin-left: 5em;
+  margin-top: 3em;
+  border-radius: 3px;
+  border-bottom: 3.5px solid #f368a0;
+  background-color: rgba(248, 175, 184, 0.2823529412);
+  justify-content: center;
+  align-content: initial;
+}
+
+.button > a:hover {
+  color: #a8466d;
+}
+
+.button:hover {
+  background-color: #faafbf;
+  transform: scale(1.5);
+}
+
+.logoHeader {
+  width: 15vw;
+  height: 25vh;
+  display: inline;
+}
+
+#logo-header {
+  margin-top: -30px;
+  margin-bottom: 2em;
+}
+
+.textColor {
+  color: #f368a0;
+}
+
+.textColor {
+  color: #f368a0;
+}
+
+.fondoFooter {
+  background-color: #ffe9f0;
+}
+
+.text-footer {
+  color: #f368a0;
+}
+
+.text-social {
+  color: #f368a0;
+}
+
+.inicio-design {
+  width: 100%;
+  height: 100%;
+  animation: fade-in-left;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.text-desc {
+  margin: 2em;
+  margin-bottom: -50px;
+  font-family: "Alkalami", serif;
+  font-size: 25px;
+  text-align: center;
+  animation: zoom-in;
+  animation-name: zoom;
+  animation-duration: 2s;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@media (max-width: 768px) {
+  .logoHeader {
+    width: 25vw;
+    height: 15vh;
+    display: inline;
+    justify-content: center;
+  }
+  .text-desc {
+    font-size: 15px;
+  }
+}
+.servicios {
+  text-align: center;
+  font-family: "Alkalami", serif;
+  padding: 50px;
+  animation: zoom-in;
+  animation-name: zoom;
+  animation-duration: 2s;
+}
+
+#services {
+  padding: 60px 0 40px 0;
+}
+
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background-color: #faa2ad;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  height: 100%;
+}
+
+#services .box:hover {
+  transform: scale(1.1);
+}
+
+#services .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#services .icon i {
+  font-size: 36px;
+  line-height: 0;
+}
+
+#services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: #111;
+}
+
+#services .box:hover .title a {
+  color: #9f1bdc;
+}
+
+#services .description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.form-area {
+  padding-top: 7%;
+}
+
+.row.single-form {
+  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+  background: #f368a0;
+  padding: 200px 98px;
+}
+
+.left h2 {
+  font-family: poppins;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.left h2 span {
+  font-weight: 100;
+}
+
+.single-form {
+  background: #fff;
+}
+
+.right {
+  padding: 70px 100px;
+  position: relative;
+}
+
+.right i {
+  position: absolute;
+  font-size: 80px;
+  left: -27px;
+  top: 40%;
+  color: #fff;
+}
+
+.form-control {
+  border: 2px solid rgb(230, 161, 220);
+}
+
+.right button {
+  border: none;
+  border-radius: 0;
+  background: #252525;
+  width: 180px;
+  color: #fff;
+  padding: 15px 0;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.right button:hover {
+  background-color: #f368a0;
+}
+
+/*responsive*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .left {
+    padding: 90px 15px;
+    text-align: center;
+  }
+  .left h2 {
+    font-size: 25px;
+  }
+  .right {
+    padding: 25px;
+  }
+  .right i {
+    top: -52px;
+    transform: rotate(90deg);
+    left: 46%;
+  }
+  .right button {
+    width: 150px;
+    padding: 12px 0;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alkalami", serif;
+}
+
+main {
+  background-color: #f8afb8;
+}
 
 /*# sourceMappingURL=style.css.map */
