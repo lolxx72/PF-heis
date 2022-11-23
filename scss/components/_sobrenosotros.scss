@@ -1,0 +1,22 @@
+.container-au {
+    background-color: rgb(255, 202, 235);
+    margin-bottom: -50px;
+}
+
+.container-fluid, .global-icon {
+    padding: 50px;
+}
+
+.global-icon {
+    margin-left: 80px;
+}
+
+@media (max-width:600px) {
+    .global-icon {
+        display: none;
+    }
+}
+
+
+
+  
