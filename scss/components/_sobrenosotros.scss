@@ -1,5 +1,6 @@
 .container-au {
-    background-color: rgb(255, 202, 235);
+    background: linear-gradient(#ffe9f0, violet, #ffe9f0);
+    height: 100%;;
     margin-bottom: -50px;
 }
 
@@ -8,7 +9,7 @@
 }
 
 .global-icon {
-    margin-left: 80px;
+    margin-left: 0;
 }
 
 @media (max-width:600px) {
