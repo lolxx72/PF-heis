@@ -1,14 +1,19 @@
 #container-sv {
   margin-bottom: -50px;
+  background: linear-gradient(#ffe9f0, rgb(164, 53, 88), #ffe9f0)
 }
 
 .servicios {
     text-align: center;
-    font-family: 'Alkalami', serif;
+    font-family: 'Satisfy', cursive;
     padding: 50px;
     animation: zoom-in;
     animation-name: zoom;
     animation-duration: 2s;
+}
+
+.servicios h1 {
+  font-family:  'Satisfy', cursive
 }
 
 #services {
