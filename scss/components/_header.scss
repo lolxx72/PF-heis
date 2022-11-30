@@ -26,6 +26,16 @@ header {
     transform: scale(1.5);
 }
 
+@media (max-width:750px) {
+    .button:hover {
+        background-color: #faafbf;
+        transform:scale(1.2);
+    }
+    a.navbar-brand {
+        margin-left: 20px;
+    }
+}
+
 .logoHeader {
     width: 15vw;
     height: 25vh;
